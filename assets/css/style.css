@@ -8,20 +8,19 @@ h1 {
     color: white;
 }
 
-.container {
-    position: relative;
-    z-index: 1;
+.container-fluid {
+
 }
 
-.container2 {
-    position: relative;
-    z-index: 2;
+.row {
+
 }
 
-container3 {
-    float: right;
+.col-md {
+    
 }
 
-container4 {
-    float: right;
+#button-addon2 {
+    background-color: black;
+    color: white;
 }

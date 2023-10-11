@@ -2,7 +2,7 @@
 
 
     
-     const apiUrl = 'api.openweathermap.org/data/2.5/forecast?lat={lat}&lon={lon}&appid={26fe44de11957c828f9297ab115d2423}';
+     const apiUrl = 'http://api.openweathermap.org/geo/1.0/direct?q={city name},{state code},{country code}&limit={limit}&appid={49ddb2ecd7ff25b9325ac091f98ae63c}';
 
      const fetchDataButton = document.getElementById('button-addon2');
      const dataContainer = document.getElementById('dataContainer');
@@ -18,3 +18,12 @@
                  console.error('Error fetching data:', error);
              });
      });
+
+     const btnBlock = document.getElementsByClassName("btn-block")
+     const cityUrl = "api.openweathermap.org/data/2.5/forecast?q={cityName}&appid={49ddb2ecd7ff25b9325ac091f98ae63c}";
+     const cityName = [spokane, seattle, portland, sanFran, losAng]
+
+    
+
+    
+
